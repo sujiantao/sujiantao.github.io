@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sujiantao - blog</title>
+    <link>https://sujiantao.github.io/</link>
+    <description>Recent content on sujiantao - blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="https://sujiantao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://sujiantao.github.io/about/</link>
+      <pubDate>Wed, 01 Mar 2023 10:38:52 +0800</pubDate>
+      
+      <guid>https://sujiantao.github.io/about/</guid>
+      
+        <description>&lt;ul&gt;
+&lt;li&gt;👋 Hi, I’m @sujiantao&lt;/li&gt;
+&lt;li&gt;👀 I’m interested in python development&lt;/li&gt;
+&lt;li&gt;🌱 I’m currently learning docker&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

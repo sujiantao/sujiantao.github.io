@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://sujiantao.github.io/sitemap.xml
