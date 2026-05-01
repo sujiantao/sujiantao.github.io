@@ -1,5 +1,5 @@
 +++
-title = '第一篇博客，用Hugo搭建GitHub Pages 作为个人博客'
+title = 'Hugo + GitHub Pages 搭建博客'
 date = '2026-04-26T17:03:53+08:00'
 draft = false
 tags = ["Hugo", "GitHub Pages"]
