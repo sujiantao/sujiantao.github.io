@@ -2,3 +2,8 @@ theme = 'PaperMod'
 baseURL = 'https://sujiantao.github.io/'
 locale = 'en-us'
 title = 'sujiantao'
+[[menu.main]]
+    identifier = "about"
+    name = "关于"     # 导航栏显示的文字
+    url = "/about/"  # 对应 content/about.md
+    weight = 30      # 数字越大越靠右
