@@ -28,4 +28,4 @@ title = 'sujiantao'
     weight = 40
 
 [outputs]
-    home = ["HTML", "RSS", "JSON"]
+home = [ "HTML", "RSS", "JSON" ]
