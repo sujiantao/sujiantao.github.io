@@ -9,10 +9,10 @@ profileMode:
   enabled: true
   title: "sujiantao"
   subtitle: "Arch Linux 用户 | Python 开发者 | FIRE程序员"
-#   imageUrl: "/images/avatar.jpg" # 头像路径，建议放在 static/images/ 下
-#   imageTitle: "Avatar"
-#   imageWidth: 150
-#   imageHeight: 150
+  imageUrl: "/images/avatar.jpg" # 头像路径，建议放在 static/images/ 下
+  imageTitle: "Avatar"
+  imageWidth: 150
+  imageHeight: 150
   buttons:
     - name: 博客文章
       url: "/posts"
@@ -22,8 +22,8 @@ profileMode:
 socialIcons:
   - name: "github"
     url: "https://github.com/sujiantao"
-#   - name: "twitter"
-#     url: "https://twitter.com/..."
+  - name: "twitter"
+    url: "https://twitter.com/..."
   - name: "email"
     url: "mailto:jiantaosu9@hotmail.com"
 ---
