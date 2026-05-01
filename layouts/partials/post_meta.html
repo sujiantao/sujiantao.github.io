@@ -8,14 +8,6 @@
 {{- $scratch.Add "meta" (slice (printf "<span>%s</span>" (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime)))) }}
 {{- end }}
 
-<!-- 不蒜子统计 -->
-<span id="busuanzi_container_page_pv" style="display: none;">
-    <span class="post-meta-item-icon">
-        <i class="fa fa-eye"></i>
-    </span>
-    &nbsp;阅读量 <span id="busuanzi_value_page_pv"></span> 次
-</span>
-
 {{- if (.Param "ShowWordCount") -}}
 {{- $scratch.Add "meta" (slice (printf "<span>%s</span>" (i18n "words" .WordCount | default (printf "%d words" .WordCount)))) }}
 {{- end }}
@@ -28,4 +20,7 @@
 
 {{- with ($scratch.Get "meta") }}
 {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+<span id="busuanzi_container_page_pv">
+    &nbsp;  |  &nbsp;阅读量 <span id="busuanzi_value_page_pv"></span> 次
+</span>
 {{- end -}}
