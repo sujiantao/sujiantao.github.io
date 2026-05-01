@@ -20,3 +20,12 @@ title = 'sujiantao'
     name = "关于"
     url = "/about"
     weight = 30
+
+[[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search"
+    weight = 40
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
