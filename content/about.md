@@ -3,6 +3,7 @@ title: "About Me"
 layout: "profileMode"
 url: "/about"   # 自定义访问路径
 summary: "profileMode" # 必须设置，否则可能会显示正文
+---
 
 [profileMode]
 enabled: true
@@ -33,4 +34,3 @@ url: "https://twitter.com/..."
 name: "email"
 url: "mailto:jiantaosu9@hotmail.com"
 
----
