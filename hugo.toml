@@ -3,6 +3,9 @@ baseURL = 'https://sujiantao.github.io/'
 locale = 'en-us'
 title = 'sujiantao'
 
+[params]
+comments = true
+
 [[menu.main]]
     identifier = "posts"
     name = "文章"
