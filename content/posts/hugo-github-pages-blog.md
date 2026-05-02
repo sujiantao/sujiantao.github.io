@@ -16,6 +16,8 @@ categories = ["碎碎念"]
 
 博客系统：Hugo(主题：PaperMod)
 
+评论系统：Giscus
+
 发布：GitHub Actions
 
 托管：GitHub Pages
