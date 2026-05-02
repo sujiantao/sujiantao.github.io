@@ -19,7 +19,7 @@ categories = ["工作"]
 
     脚本中所有的变量赋值、别名（alias）和函数都会保留在当前的终端会话中。
 
-2. 常见用法
+## 2. 常见用法
 
 在 Arch Linux 或任何 Linux 发行版中，你最常遇到它的场景就是更新配置文件。
 刷新配置文件
@@ -42,7 +42,8 @@ Bash
 
 source .venv/bin/activate
 
-3. source vs sh/./ 的区别
+## 3. source vs sh/./ 的区别
+
 特性,source script.sh,./script.sh 或 sh script.sh
 执行环境,当前 Shell 进程,新开一个子 Shell 进程
 变量影响,脚本内的变量会留在当前终端,脚本运行完变量即刻销毁
