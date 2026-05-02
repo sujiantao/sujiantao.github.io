@@ -1,0 +1,5 @@
+- id: posts
+  translation: "文章"
+
+- id: read_more
+  translation: "继续阅读"
