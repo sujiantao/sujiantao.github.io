@@ -19,9 +19,9 @@ comments = true
     weight = 20
 
 [[menu.main]]
-    identifier = "about"
-    name = "关于"
-    url = "/about"
+    identifier = "categories"
+    name = "分类"
+    url = "/categories"
     weight = 30
 
 [[menu.main]]
@@ -29,6 +29,12 @@ comments = true
     name = "搜索"
     url = "/search"
     weight = 40
+
+[[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about"
+    weight = 50
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]

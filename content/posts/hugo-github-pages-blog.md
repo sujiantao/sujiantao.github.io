@@ -2,8 +2,8 @@
 title = 'Hugo + GitHub Pages 搭建博客'
 date = '2026-04-26T17:03:53+08:00'
 draft = false
-tags = ["Hugo", "GitHub Pages"]
-categories = ["碎碎念"]
+tags = ["Hugo", "GitHub Pages","碎碎念"]
+categories = ["工作"]
 +++
 
 ## 为什么选择GitHub Pages
@@ -14,7 +14,7 @@ categories = ["碎碎念"]
 
 开发工具：VSCODE(主要插件：Markdown All in One，Paste Image，markdownlint)
 
-博客系统：Hugo(主题：PaperMod)
+博客系统：Hugo(主题：PaperMod)v
 
 评论系统：Giscus
 
