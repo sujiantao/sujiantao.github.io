@@ -30,7 +30,7 @@ hideMeta: true
 
 ## 🚀 正在进行的工程
 
-* **Gemini CLI Agent**: 一个基于终端的 AI 助手，利用 MCP 协议实现本地自动化。
+* **AI CLI Agent**: 乱试各种 AI 助手。
 * **Static Site Flow**: 优化基于 GitHub Actions 的 Hugo 自动部署工作流。
 * **Home Server**: 使用旧硬件搭建个人私有云及媒体中心。
 
