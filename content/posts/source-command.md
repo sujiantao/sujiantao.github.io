@@ -1,6 +1,6 @@
 +++
 date = '2026-05-02T22:11:43+08:00'
-draft = true
+draft = false
 title = 'source命令'
 tags = ["shell"]
 categories = ["工作"]
@@ -25,27 +25,33 @@ categories = ["工作"]
 刷新配置文件
 
 当你修改了 ~/.zshrc（或 .bashrc）后，为了让配置立即生效而不用关闭并重新打开终端，你会执行：
-Bash
 
-source ~/.zshrc
+    Bash
+
+    source ~/.zshrc
 
 或者使用它的缩写（一个点号）：
-Bash
 
-. ~/.zshrc
+    Bash
 
-注意：. 和 source 在绝大多数 shell（如 bash, zsh）中是完全等价的。
+    . ~/.zshrc
+
+>[!INFO]注意：
+>. 和 source 在绝大多数 shell（如 bash, zsh）中是完全等价的。
+
 激活虚拟环境
 
 在 Python 开发中，激活环境本质上就是通过 source 修改当前的 PATH 变量：
-Bash
 
-source .venv/bin/activate
+    Bash
+
+    source .venv/bin/activate
 
 ## 3. source vs sh/./ 的区别
 
-特性,source script.sh,./script.sh 或 sh script.sh
-执行环境,当前 Shell 进程,新开一个子 Shell 进程
-变量影响,脚本内的变量会留在当前终端,脚本运行完变量即刻销毁
-权限要求,只需要文件的读取权限,必须拥有执行权限 (chmod +x)
-典型用途,加载配置、切换环境、定义函数,运行独立的工具或自动化任务
+| 特性 | source script.sh | ./script.sh 或 sh script.sh |
+| :---: | :--- | :--- |
+| 执行环境 | 当前 Shell 进程 | 新开一个 Shell 进程 |
+| 变量影响 | 脚本内的变量会留在当前终端 | 脚本运行完变量立刻销毁 |
+| 权限要求 | 只需要文件的读取权限 | 必须拥有执行权限（chmod +x） |
+| 典型用途 | 加载配置，切换环境，定义函数 | 独立工具或自动化任务 |
