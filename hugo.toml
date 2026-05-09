@@ -29,6 +29,9 @@ hasCJKLanguage = true
     comments = true
     # 使用 2006-01-02 这种占位符（这是 Go 语言的特殊日期写法）
     DateFormat = "2006年01月02日"
+    showFirstFullPost = false
+    displayFullPost = false
+
 
 [[menu.main]]
     identifier = "posts"
@@ -61,4 +64,4 @@ hasCJKLanguage = true
     weight = 50
 
 [outputs]
-home = [ "HTML", "RSS", "JSON" ]
+    home = [ "HTML", "RSS", "JSON" ]
