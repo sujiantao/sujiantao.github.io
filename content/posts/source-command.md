@@ -1,11 +1,10 @@
 +++
 date = '2026-05-02T22:11:43+08:00'
 draft = false
-draft = false
 title = 'source命令'
 tags = ["shell"]
 categories = ["工作"]
-+++
++++  
 在 shell 环境中，source 是一个非常核心的内置命令。
 简单来说，它的作用是：在当前正在运行的 Shell 会话中执行指定文件中的脚本。
 

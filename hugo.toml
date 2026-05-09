@@ -31,6 +31,8 @@ hasCJKLanguage = true
     DateFormat = "2006年01月02日"
     showFirstFullPost = false
     displayFullPost = false
+    [params.busuanzi]
+        enable = true
 
 
 [[menu.main]]
