@@ -14,5 +14,6 @@ categories = ["Dev"]
 
 安装rate-mirrors
 > sudo pacman -S rate-mirrors
+
 测试 Arch 镜像，并更新镜像列表
 > rate-mirrors arch | sudo tee /etc/pacman.d/mirrorlist
