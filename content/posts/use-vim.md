@@ -179,5 +179,4 @@ Vim编辑器提供了一系列选项，供您配置和自定义编辑器。若�
 有关如何使用帮助的更多信息：
 > :help helphelp
 
-
 原文：//vimhelp.org/usr_02.txt.html#usr_02.txt
